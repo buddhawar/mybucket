@@ -1,6 +1,9 @@
 name: my first deploymnet
 run-name: Praveen
-on: push
+on: 
+  pull_request:
+    branches:
+      - main
 jobs:
   myfirstjob:
     runs-on: ubuntu-24.04
