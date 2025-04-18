@@ -1,0 +1,11 @@
+name: my first deploymnet
+run-name: Praveen
+on: push
+jobs:
+    my first job:
+    runs-on: ubantu-latest
+    steps: 
+        - name: print a greeting
+          run: echo print a greeting
+
+
