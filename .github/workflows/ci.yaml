@@ -3,7 +3,7 @@ run-name: Praveen
 on: push
 jobs:
   myfirstjob:
-    runs-on: ubantu-latest
+    runs-on: ubuntu-24.04
     steps: 
     - name: print a greeting
       run: echo print a greeting
