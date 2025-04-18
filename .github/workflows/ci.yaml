@@ -2,7 +2,7 @@ name: my first deploymnet
 run-name: Praveen
 on: push
 jobs:
-  my first job:
+  myfirstjob:
     runs-on: ubantu-latest
     steps: 
     - name: print a greeting
